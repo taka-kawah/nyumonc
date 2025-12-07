@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     for (size_t i = 1; i < argc; i++)
     {
         int num = atoi(argv[i]);
-        if (max - num > 0)
+        if (num > max || i == 1)
         {
             max = num;
         }
