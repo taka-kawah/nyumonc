@@ -9,8 +9,7 @@ int main(void)
         {
             char buf[3];
             snprintf(buf, sizeof(buf), "%2zu", i * j);
-            printf("%s", buf);
-            printf(" ");
+            printf("%s ", buf);
         }
         printf("\n");
     }
